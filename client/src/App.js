@@ -1,11 +1,16 @@
-
+import React from 'react'
+import NavBar from './component/NavBar';
+import Footer from './component/Footer';
+import AppRoute from './component/appRoute/AppRoute';
 import './App.css';
 
 function App() {
   return (
-   <div>
-    voici mon projet
-    </div>
+    <>
+    <NavBar />
+    <AppRoute />
+    <Footer />
+    </>
   );
 }
 
